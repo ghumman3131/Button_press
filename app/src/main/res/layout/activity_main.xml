@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEFORE BUTTON PRESS"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/some_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESS ME"
+        android:layout_below="@+id/some_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:id="@+id/press_me_button"/>
+</RelativeLayout>
